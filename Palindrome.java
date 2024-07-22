@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class java{
     public static void main(String[] args) {
-        System.out.println("hi");
+        
         System.out.println("Enter a no");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
@@ -17,8 +17,8 @@ class java{
         }
         System.out.println(rev);
         if(rev==temp){
-            System.out.println("True");
-        }else{System.out.println("False");}
+            System.out.println("The number is a Palindrome");
+        }else{System.out.println("The number is not a Palindrome");}
         
 
 
